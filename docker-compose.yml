@@ -26,7 +26,6 @@ services:
       - 9503:9503
     links:
       - db
-      - redis
   client:
     container_name: client
     hostname: client
@@ -42,6 +41,5 @@ services:
       - server
     links:
       - db
-      - redis
       - server
 
