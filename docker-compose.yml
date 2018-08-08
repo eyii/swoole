@@ -33,7 +33,7 @@ services:
       ./docker/client
     image:  dockerliweipei/swoole:client
     volumes:
-      - "${PWD}/server/tools/ ${WEB}/"
+      - "${PWD}/server/tools ${WEB}"
     ports:
       - 80:80
       - 9501:9501
