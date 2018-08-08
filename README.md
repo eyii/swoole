@@ -62,21 +62,7 @@ source /root/.bashrc
     links:
       - db
       - redis
-    redis:
-      build:
-       ./docker/redis
-      container_name: redis
-      image: redis:latest
-      command: redis-server --requirepass "redis" --appendonly yes
-      ports:
-        - 6379:6379
-    memcached:
-      build:
-       ./docker/memcached
-      container_name: memcached
-      image: memcached:latest
-      ports:
-        - 11211:11211
+ 
     elasticsearch:
       image: elasticsearch
       container_name: elasticsearch
