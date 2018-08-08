@@ -15,34 +15,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker/server/tools/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="317">
+                <caret line="64" column="1" lean-forward="false" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+                <folding>
+                  <element signature="e#0#7#0" expanded="false" />
+                  <element signature="e#30#33#0" expanded="false" />
+                  <element signature="e#34#189#0" expanded="false" />
+                  <element signature="e#193#196#0" expanded="false" />
+                  <element signature="e#197#328#0" expanded="false" />
+                  <element signature="e#331#336#0" expanded="false" />
+                  <element signature="e#416#1054#0" expanded="false" />
+                  <element signature="e#1056#1152#0" expanded="false" />
+                  <element signature="e#1154#1178#0" expanded="false" />
+                </folding>
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docker/client/tools/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="228">
+              <caret line="51" column="8" lean-forward="true" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
               <folding>
                 <element signature="e#9#14#0" expanded="false" />
-                <element signature="e#15#868#0" expanded="false" />
                 <element signature="e#27#266#0" expanded="false" />
                 <element signature="e#48#59#0" expanded="false" />
                 <element signature="e#80#82#0" expanded="false" />
@@ -82,6 +84,7 @@
                 <element signature="e#836#868#0" expanded="false" />
                 <element signature="e#851#853#0" expanded="false" />
                 <element signature="e#862#868#0" expanded="false" />
+                <element signature="e#894#908#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -115,7 +118,6 @@
         <option value="$PROJECT_DIR$/docker/client/tools/Client.php" />
         <option value="$PROJECT_DIR$/laravel-s/src/LaravelS.php" />
         <option value="$PROJECT_DIR$/docker/client/READNE.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/docker/client/tools/swoole_server.php" />
         <option value="$PROJECT_DIR$/docker/server/tools/swoole_server.php" />
         <option value="$PROJECT_DIR$/docker/server/tools/swoole_redis.php" />
@@ -123,7 +125,6 @@
         <option value="$PROJECT_DIR$/docker/server/tools/Tasks.php" />
         <option value="$PROJECT_DIR$/docker/client/tools/swoole_redis.php" />
         <option value="$PROJECT_DIR$/docker/server/tools/swoole_websocket_server.php" />
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/docker/client/Dockerfile" />
         <option value="$PROJECT_DIR$/docker/server/Dockerfile" />
         <option value="$PROJECT_DIR$/docker/db/bak.sql" />
@@ -134,6 +135,8 @@
         <option value="$PROJECT_DIR$/docker/server/tools/composer.json" />
         <option value="$PROJECT_DIR$/docker/server/tools/index.php" />
         <option value="$PROJECT_DIR$/docker/client/tools/index.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
       </list>
     </option>
   </component>
@@ -167,9 +170,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -182,32 +185,6 @@
               <item name="swoole" type="b2602c69:ProjectViewProjectNode" />
               <item name="swoole" type="462c0819:PsiDirectoryNode" />
               <item name="docker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="swoole" type="b2602c69:ProjectViewProjectNode" />
-              <item name="swoole" type="462c0819:PsiDirectoryNode" />
-              <item name="docker" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="swoole" type="b2602c69:ProjectViewProjectNode" />
-              <item name="swoole" type="462c0819:PsiDirectoryNode" />
-              <item name="docker" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="swoole" type="b2602c69:ProjectViewProjectNode" />
-              <item name="swoole" type="462c0819:PsiDirectoryNode" />
-              <item name="docker" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="swoole" type="b2602c69:ProjectViewProjectNode" />
-              <item name="swoole" type="462c0819:PsiDirectoryNode" />
-              <item name="docker" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -335,12 +312,12 @@
       <option name="presentableId" value="Default" />
       <updated>1533703177237</updated>
       <workItem from="1533703181027" duration="20389000" />
-      <workItem from="1533730949743" duration="84000" />
+      <workItem from="1533730949743" duration="471000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20473000" />
+    <option name="totallyTimeSpent" value="20860000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -399,7 +376,6 @@
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
             <element signature="e#9#14#0" expanded="false" />
-            <element signature="e#15#868#0" expanded="false" />
             <element signature="e#27#266#0" expanded="false" />
             <element signature="e#48#59#0" expanded="false" />
             <element signature="e#80#82#0" expanded="false" />
@@ -439,6 +415,7 @@
             <element signature="e#836#868#0" expanded="false" />
             <element signature="e#851#853#0" expanded="false" />
             <element signature="e#862#868#0" expanded="false" />
+            <element signature="e#894#908#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -515,16 +492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="323">
-            <caret line="64" column="5" lean-forward="false" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -668,19 +635,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docker/server/tools/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
+        <state relative-caret-position="0">
           <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docker/client/tools/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="317">
+            <caret line="64" column="1" lean-forward="false" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+            <folding>
+              <element signature="e#0#7#0" expanded="false" />
+              <element signature="e#30#33#0" expanded="false" />
+              <element signature="e#34#189#0" expanded="false" />
+              <element signature="e#193#196#0" expanded="false" />
+              <element signature="e#197#328#0" expanded="false" />
+              <element signature="e#331#336#0" expanded="false" />
+              <element signature="e#416#1054#0" expanded="false" />
+              <element signature="e#1056#1152#0" expanded="false" />
+              <element signature="e#1154#1178#0" expanded="false" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="228">
+          <caret line="51" column="8" lean-forward="true" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
           <folding>
             <element signature="e#9#14#0" expanded="false" />
-            <element signature="e#15#868#0" expanded="false" />
             <element signature="e#27#266#0" expanded="false" />
             <element signature="e#48#59#0" expanded="false" />
             <element signature="e#80#82#0" expanded="false" />
@@ -720,15 +715,8 @@
             <element signature="e#836#868#0" expanded="false" />
             <element signature="e#851#853#0" expanded="false" />
             <element signature="e#862#868#0" expanded="false" />
+            <element signature="e#894#908#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker/client/tools/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
