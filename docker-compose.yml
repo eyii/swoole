@@ -26,6 +26,8 @@ services:
       - 90:90
     links:
       - db
+      - redis
+      - memcached
   client:
     container_name: client
     hostname: client
@@ -42,6 +44,8 @@ services:
     links:
       - db
       - server
+      - redis
+      - memcached
   redis:
     build:
      ./docker/redis
