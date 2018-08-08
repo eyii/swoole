@@ -7,7 +7,6 @@ class Client
     }
     function connect() {
         if( !$this->client->connect("127.0.0.1", 9501 , 1) ) 	echo "Error: {$this->client->errMsg}[{$this->client->errCode}]\n";
-
         fwrite(STDOUT, "请输入消息 Please input msg：");
         $msg = trim(fgets(STDIN));
         $this->client->send( $msg );
