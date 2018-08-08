@@ -1,0 +1,56 @@
+version: '3.3'
+services:
+  db:
+    build:
+      ./docker/db
+    container_name: db
+    image: dockerliweipei/swoole:db
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_DATABASE: test
+      LANG: C.UTF-8
+    ports:
+      - 3306:3306
+    restart : always
+  server:
+    container_name: server
+    hostname: server
+    build:
+      ./docker/server
+    image:  dockerliweipei/swoole:server
+    ports:
+      - 8080:80
+      - 9503:9503
+    links:
+      - db
+      - redis
+  client:
+    container_name: client
+    hostname: client
+    build:
+      ./docker/client
+    image:  dockerliweipei/swoole:client
+    ports:
+      - 80:80
+      - 9501:9501
+    depends_on:
+      - server
+    links:
+      - db
+      - redis
+      - server
+  redis:
+    build:
+     ./docker/redis
+    container_name: redis
+    image: redis:latest
+    command: redis-server --requirepass "redis" --appendonly yes
+    ports:
+      - 6379:6379
+  memcached:
+    build:
+     ./docker/memcached
+    container_name: memcached
+    image: memcached:latest
+    ports:
+      - 11211:11211
