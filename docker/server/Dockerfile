@@ -11,7 +11,7 @@ WORKDIR /etc/apache2/sites-enabled/
 RUN sed -i "s#DocumentRoot /var/www/html/public#DocumentRoot ${WEB}#" 000-default.conf
 #RUN cp server.ini-development /etc/server/server.ini
 
-RUN apt-get install -y gcc g++  libiconv-hook-dev libxml2-dev  libcurl4-openssl-dev pcre-devel
+RUN apt-get install -y gcc g++  libiconv-hook-dev libxml2-dev  libcurl4-openssl-dev
 RUN docker-php-ext-install zip  pcntl sockets  sysvmsg sysvsem sysvshm shmop soap  opcache  xmlrpc
 #RUN docker-server-ext-disable rpath debug fileinfo
 #RUN docker-server-ext-install  mysql pcre_regex mhash  libmysqlclient-dev  imap_ssl libjpeg8-dev libpng12-dev  fpm

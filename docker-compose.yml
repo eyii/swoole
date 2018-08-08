@@ -54,3 +54,14 @@ services:
     image: memcached:latest
     ports:
       - 11211:11211
+  elasticsearch:
+    image: elasticsearch
+    container_name: elasticsearch
+    hostname: elasticsearch
+    ports:
+      - 9200:9200
+      - 9300:9300
+  kibana:
+    image: kibana
+    ports:
+      - 5601:5601
