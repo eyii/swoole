@@ -15,64 +15,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docker/server/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
-              <folding>
-                <element signature="e#9#14#0" expanded="false" />
-                <element signature="e#27#266#0" expanded="false" />
-                <element signature="e#48#59#0" expanded="false" />
-                <element signature="e#80#82#0" expanded="false" />
-                <element signature="e#94#118#0" expanded="false" />
-                <element signature="e#123#216#0" expanded="false" />
-                <element signature="e#163#169#0" expanded="false" />
-                <element signature="e#192#196#0" expanded="false" />
-                <element signature="e#209#216#0" expanded="false" />
-                <element signature="e#221#245#0" expanded="false" />
-                <element signature="e#236#245#0" expanded="false" />
-                <element signature="e#260#266#0" expanded="false" />
-                <element signature="e#297#303#0" expanded="false" />
-                <element signature="e#318#324#0" expanded="false" />
-                <element signature="e#342#357#0" expanded="false" />
-                <element signature="e#484#493#0" expanded="false" />
-                <element signature="e#513#515#0" expanded="false" />
-                <element signature="e#524#529#0" expanded="false" />
-                <element signature="e#560#566#0" expanded="false" />
-                <element signature="e#581#587#0" expanded="false" />
-                <element signature="e#747#756#0" expanded="false" />
-                <element signature="e#761#787#0" expanded="false" />
-                <element signature="e#781#787#0" expanded="false" />
-                <element signature="e#792#838#0" expanded="false" />
-                <element signature="e#807#809#0" expanded="false" />
-                <element signature="e#818#823#0" expanded="false" />
-                <element signature="e#832#838#0" expanded="false" />
-                <element signature="e#841#1022#0" expanded="false" />
-                <element signature="e#864#878#0" expanded="false" />
-                <element signature="e#899#904#0" expanded="false" />
-                <element signature="e#916#928#0" expanded="false" />
-                <element signature="e#942#993#0" expanded="false" />
-                <element signature="e#998#1022#0" expanded="false" />
-                <element signature="e#1013#1022#0" expanded="false" />
-                <element signature="e#1025#1159#0" expanded="false" />
-                <element signature="e#1052#1070#0" expanded="false" />
-                <element signature="e#1091#1100#0" expanded="false" />
-                <element signature="e#1112#1128#0" expanded="false" />
-                <element signature="e#1133#1159#0" expanded="false" />
-                <element signature="e#1148#1159#0" expanded="false" />
-                <element signature="e#1162#1310#0" expanded="false" />
-                <element signature="e#1188#1201#0" expanded="false" />
-                <element signature="e#1222#1235#0" expanded="false" />
-                <element signature="e#1250#1263#0" expanded="false" />
-                <element signature="e#1268#1310#0" expanded="false" />
-                <element signature="e#1283#1292#0" expanded="false" />
-                <element signature="e#1301#1310#0" expanded="false" />
-                <element signature="e#1313#1367#0" expanded="false" />
-                <element signature="e#1332#1338#0" expanded="false" />
-                <element signature="e#1343#1367#0" expanded="false" />
-                <element signature="e#1358#1367#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="399">
+              <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -101,10 +49,10 @@
       <list>
         <option value="$PROJECT_DIR$/laravel-s/src/Illuminate/LaravelSServiceProvider.php" />
         <option value="$PROJECT_DIR$/docker/client/tools/Client.php" />
-        <option value="$PROJECT_DIR$/docker/client/Dockerfile" />
-        <option value="$PROJECT_DIR$/docker/server/Dockerfile" />
         <option value="$PROJECT_DIR$/laravel-s/src/LaravelS.php" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/docker/client/Dockerfile" />
+        <option value="$PROJECT_DIR$/docker/server/Dockerfile" />
       </list>
     </option>
   </component>
@@ -152,13 +100,26 @@
             <path>
               <item name="swoole" type="b2602c69:ProjectViewProjectNode" />
               <item name="swoole" type="462c0819:PsiDirectoryNode" />
-              <item name="laravel-s" type="462c0819:PsiDirectoryNode" />
+              <item name="docker" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="swoole" type="b2602c69:ProjectViewProjectNode" />
               <item name="swoole" type="462c0819:PsiDirectoryNode" />
-              <item name="laravel-s" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="docker" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swoole" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swoole" type="462c0819:PsiDirectoryNode" />
+              <item name="docker" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swoole" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swoole" type="462c0819:PsiDirectoryNode" />
+              <item name="docker" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -285,12 +246,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533703177237</updated>
-      <workItem from="1533703181027" duration="10521000" />
+      <workItem from="1533703181027" duration="10708000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10521000" />
+    <option name="totallyTimeSpent" value="10708000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -425,14 +386,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker/client/tools/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker/client/tools/Client.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -487,22 +440,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker/client/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker/server/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel-s/src/LaravelS.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -542,8 +479,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+        <state relative-caret-position="456">
+          <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
           <folding>
             <element signature="e#9#14#0" expanded="false" />
             <element signature="e#27#266#0" expanded="false" />
@@ -565,38 +502,62 @@
             <element signature="e#524#529#0" expanded="false" />
             <element signature="e#560#566#0" expanded="false" />
             <element signature="e#581#587#0" expanded="false" />
-            <element signature="e#747#756#0" expanded="false" />
-            <element signature="e#761#787#0" expanded="false" />
-            <element signature="e#781#787#0" expanded="false" />
-            <element signature="e#792#838#0" expanded="false" />
-            <element signature="e#807#809#0" expanded="false" />
-            <element signature="e#818#823#0" expanded="false" />
-            <element signature="e#832#838#0" expanded="false" />
-            <element signature="e#841#1022#0" expanded="false" />
-            <element signature="e#864#878#0" expanded="false" />
-            <element signature="e#899#904#0" expanded="false" />
-            <element signature="e#916#928#0" expanded="false" />
-            <element signature="e#942#993#0" expanded="false" />
-            <element signature="e#998#1022#0" expanded="false" />
-            <element signature="e#1013#1022#0" expanded="false" />
-            <element signature="e#1025#1159#0" expanded="false" />
-            <element signature="e#1052#1070#0" expanded="false" />
-            <element signature="e#1091#1100#0" expanded="false" />
-            <element signature="e#1112#1128#0" expanded="false" />
-            <element signature="e#1133#1159#0" expanded="false" />
-            <element signature="e#1148#1159#0" expanded="false" />
-            <element signature="e#1162#1310#0" expanded="false" />
-            <element signature="e#1188#1201#0" expanded="false" />
-            <element signature="e#1222#1235#0" expanded="false" />
-            <element signature="e#1250#1263#0" expanded="false" />
-            <element signature="e#1268#1310#0" expanded="false" />
-            <element signature="e#1283#1292#0" expanded="false" />
-            <element signature="e#1301#1310#0" expanded="false" />
-            <element signature="e#1313#1367#0" expanded="false" />
-            <element signature="e#1332#1338#0" expanded="false" />
-            <element signature="e#1343#1367#0" expanded="false" />
-            <element signature="e#1358#1367#0" expanded="false" />
+            <element signature="e#745#754#0" expanded="false" />
+            <element signature="e#759#785#0" expanded="false" />
+            <element signature="e#779#785#0" expanded="false" />
+            <element signature="e#790#836#0" expanded="false" />
+            <element signature="e#805#807#0" expanded="false" />
+            <element signature="e#816#821#0" expanded="false" />
+            <element signature="e#830#836#0" expanded="false" />
+            <element signature="e#839#1020#0" expanded="false" />
+            <element signature="e#862#876#0" expanded="false" />
+            <element signature="e#897#902#0" expanded="false" />
+            <element signature="e#914#926#0" expanded="false" />
+            <element signature="e#940#991#0" expanded="false" />
+            <element signature="e#996#1020#0" expanded="false" />
+            <element signature="e#1011#1020#0" expanded="false" />
+            <element signature="e#1023#1157#0" expanded="false" />
+            <element signature="e#1050#1068#0" expanded="false" />
+            <element signature="e#1089#1098#0" expanded="false" />
+            <element signature="e#1110#1126#0" expanded="false" />
+            <element signature="e#1131#1157#0" expanded="false" />
+            <element signature="e#1146#1157#0" expanded="false" />
+            <element signature="e#1160#1308#0" expanded="false" />
+            <element signature="e#1186#1199#0" expanded="false" />
+            <element signature="e#1220#1233#0" expanded="false" />
+            <element signature="e#1248#1261#0" expanded="false" />
+            <element signature="e#1266#1308#0" expanded="false" />
+            <element signature="e#1281#1290#0" expanded="false" />
+            <element signature="e#1299#1308#0" expanded="false" />
+            <element signature="e#1311#1365#0" expanded="false" />
+            <element signature="e#1330#1336#0" expanded="false" />
+            <element signature="e#1341#1365#0" expanded="false" />
+            <element signature="e#1356#1365#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/client/tools/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/client/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/server/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
