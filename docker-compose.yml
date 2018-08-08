@@ -18,6 +18,8 @@ services:
     build:
       ./docker/server
     image:  dockerliweipei/swoole:server
+    volumes:
+      - "${PWD}/server/tools/ ${WEB}/"
     ports:
       - 81:80
       - 9503:9503
@@ -30,6 +32,8 @@ services:
     build:
       ./docker/client
     image:  dockerliweipei/swoole:client
+    volumes:
+      - "${PWD}/server/tools/ ${WEB}/"
     ports:
       - 80:80
       - 9501:9501
