@@ -14,5 +14,6 @@ RUN apt-get install -y gcc g++  libiconv-hook-dev libxml2-dev  libcurl4-openssl-
 RUN docker-php-ext-install zip  pcntl sockets  sysvmsg sysvsem sysvshm shmop soap  opcache  xmlrpc
 RUN pecl install swoole &&docker-php-ext-enable swoole
 RUN php --ri swoole
+VOLUME /var/www/html
 EXPOSE 80 9501
 
