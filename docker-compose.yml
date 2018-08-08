@@ -19,7 +19,7 @@ services:
       ./docker/server
     image:  dockerliweipei/swoole:server
     volumes:
-      - "${PWD}/docker/server/tools/:${WEB}/"
+      - "${PWD}/docker/server/tools/:/var/www/html"
     ports:
       - 81:80
       - 9503:9503
@@ -33,7 +33,7 @@ services:
       ./docker/client
     image:  dockerliweipei/swoole:client
     volumes:
-      - "${PWD}/docker/client/tools:${WEB}"
+      - "${PWD}/docker/client/tools:/var/www/html"
     ports:
       - 80:80
       - 9501:9501
