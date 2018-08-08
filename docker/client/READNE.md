@@ -42,3 +42,6 @@ RUN chmod -R 755 ./data/ &&\
      chmod -R 555 ./templets/ &&\
      chmod 555 ./index.php  &&\
      chmod 555 ./tags.php &&\
+     
+/etc/apache2/sites-enabled/000-default.conf
+     
