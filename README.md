@@ -45,3 +45,20 @@ fi
 
 EOF
 source /root/.bashrc
+
+
+  ab:
+    container_name: ab
+    hostname: ab
+    build:
+      ./docker/server
+    image:  dockerliweipei/swoole:ab
+    command: php /var/www/html/index.php
+    volumes:
+      - "${PWD}/docker/server/tools/:/var/www/html"
+    ports:
+      - 81:80
+      - 9503:9503
+    links:
+      - db
+      - redis
