@@ -2,7 +2,7 @@ FROM dockerliweipei/xdebug:php7.1
 
 #加文件
 ENV GIT_ROOT  /var/www/html
-ENV WEB  ${GIT_ROOT}
+ENV WEB /var/www/html
 #权限
 
 #vhost
