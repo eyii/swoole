@@ -15,103 +15,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker/client/Dockerfile">
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docker/server/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            <state relative-caret-position="380">
+              <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="19" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-              <folding>
-                <element signature="e#9#14#0" expanded="false" />
-                <element signature="e#27#266#0" expanded="false" />
-                <element signature="e#48#59#0" expanded="false" />
-                <element signature="e#80#82#0" expanded="false" />
-                <element signature="e#94#118#0" expanded="false" />
-                <element signature="e#123#216#0" expanded="false" />
-                <element signature="e#163#169#0" expanded="false" />
-                <element signature="e#192#196#0" expanded="false" />
-                <element signature="e#209#216#0" expanded="false" />
-                <element signature="e#221#245#0" expanded="false" />
-                <element signature="e#236#245#0" expanded="false" />
-                <element signature="e#260#266#0" expanded="false" />
-                <element signature="e#297#303#0" expanded="false" />
-                <element signature="e#318#324#0" expanded="false" />
-                <element signature="e#342#357#0" expanded="false" />
-                <element signature="e#370#398#0" expanded="false" />
-                <element signature="e#403#450#0" expanded="false" />
-                <element signature="e#420#450#0" expanded="false" />
-                <element signature="e#455#493#0" expanded="false" />
-                <element signature="e#470#475#0" expanded="false" />
-                <element signature="e#484#493#0" expanded="false" />
-                <element signature="e#498#529#0" expanded="false" />
-                <element signature="e#513#515#0" expanded="false" />
-                <element signature="e#524#529#0" expanded="false" />
-                <element signature="e#560#566#0" expanded="false" />
-                <element signature="e#581#587#0" expanded="false" />
-                <element signature="e#605#620#0" expanded="false" />
-                <element signature="e#633#661#0" expanded="false" />
-                <element signature="e#731#736#0" expanded="false" />
-                <element signature="e#745#754#0" expanded="false" />
-                <element signature="e#759#785#0" expanded="false" />
-                <element signature="e#779#785#0" expanded="false" />
-                <element signature="e#790#836#0" expanded="false" />
-                <element signature="e#805#807#0" expanded="false" />
-                <element signature="e#816#821#0" expanded="false" />
-                <element signature="e#830#836#0" expanded="false" />
-                <element signature="e#839#1020#0" expanded="false" />
-                <element signature="e#862#876#0" expanded="false" />
-                <element signature="e#897#902#0" expanded="false" />
-                <element signature="e#914#926#0" expanded="false" />
-                <element signature="e#940#991#0" expanded="false" />
-                <element signature="e#996#1020#0" expanded="false" />
-                <element signature="e#1011#1020#0" expanded="false" />
-                <element signature="e#1050#1068#0" expanded="false" />
-                <element signature="e#1089#1098#0" expanded="false" />
-                <element signature="e#1110#1126#0" expanded="false" />
-                <element signature="e#1131#1157#0" expanded="false" />
-                <element signature="e#1146#1157#0" expanded="false" />
-                <element signature="e#1160#1308#0" expanded="false" />
-                <element signature="e#1186#1199#0" expanded="false" />
-                <element signature="e#1220#1233#0" expanded="false" />
-                <element signature="e#1248#1261#0" expanded="false" />
-                <element signature="e#1266#1308#0" expanded="false" />
-                <element signature="e#1281#1290#0" expanded="false" />
-                <element signature="e#1299#1308#0" expanded="false" />
-                <element signature="e#1311#1365#0" expanded="false" />
-                <element signature="e#1330#1336#0" expanded="false" />
-                <element signature="e#1341#1365#0" expanded="false" />
-                <element signature="e#1356#1365#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="READNE.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker/client/READNE.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="76">
-                <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-                <folding>
-                  <element signature="e#0#56#0" expanded="false" />
-                  <element signature="e#57#66#0" expanded="false" />
-                  <element signature="e#68#582#0" expanded="false" />
-                  <element signature="e#584#634#0" expanded="false" />
-                  <element signature="e#636#685#0" expanded="false" />
-                  <element signature="e#688#742#0" expanded="false" />
-                  <element signature="e#746#1127#0" expanded="false" />
-                </folding>
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -141,10 +50,10 @@
         <option value="$PROJECT_DIR$/laravel-s/src/Illuminate/LaravelSServiceProvider.php" />
         <option value="$PROJECT_DIR$/docker/client/tools/Client.php" />
         <option value="$PROJECT_DIR$/laravel-s/src/LaravelS.php" />
-        <option value="$PROJECT_DIR$/docker/server/Dockerfile" />
-        <option value="$PROJECT_DIR$/docker/client/Dockerfile" />
         <option value="$PROJECT_DIR$/docker/client/READNE.md" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/docker/client/Dockerfile" />
+        <option value="$PROJECT_DIR$/docker/server/Dockerfile" />
       </list>
     </option>
   </component>
@@ -338,15 +247,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533703177237</updated>
-      <workItem from="1533703181027" duration="11590000" />
+      <workItem from="1533703181027" duration="11955000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11590000" />
+    <option name="totallyTimeSpent" value="11955000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -357,14 +267,14 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -576,14 +486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker/server/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker/client/READNE.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -603,20 +505,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker/client/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        <state relative-caret-position="209">
+          <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
           <folding>
-            <element signature="e#9#14#0" expanded="false" />
             <element signature="e#27#266#0" expanded="false" />
             <element signature="e#48#59#0" expanded="false" />
             <element signature="e#80#82#0" expanded="false" />
@@ -628,6 +521,7 @@
             <element signature="e#221#245#0" expanded="false" />
             <element signature="e#236#245#0" expanded="false" />
             <element signature="e#260#266#0" expanded="false" />
+            <element signature="e#269#529#0" expanded="false" />
             <element signature="e#297#303#0" expanded="false" />
             <element signature="e#318#324#0" expanded="false" />
             <element signature="e#342#357#0" expanded="false" />
@@ -642,8 +536,7 @@
             <element signature="e#524#529#0" expanded="false" />
             <element signature="e#560#566#0" expanded="false" />
             <element signature="e#581#587#0" expanded="false" />
-            <element signature="e#605#620#0" expanded="false" />
-            <element signature="e#633#661#0" expanded="false" />
+            <element signature="e#716#754#0" expanded="false" />
             <element signature="e#731#736#0" expanded="false" />
             <element signature="e#745#754#0" expanded="false" />
             <element signature="e#759#785#0" expanded="false" />
@@ -652,7 +545,6 @@
             <element signature="e#805#807#0" expanded="false" />
             <element signature="e#816#821#0" expanded="false" />
             <element signature="e#830#836#0" expanded="false" />
-            <element signature="e#839#1020#0" expanded="false" />
             <element signature="e#862#876#0" expanded="false" />
             <element signature="e#897#902#0" expanded="false" />
             <element signature="e#914#926#0" expanded="false" />
@@ -676,6 +568,22 @@
             <element signature="e#1341#1365#0" expanded="false" />
             <element signature="e#1356#1365#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/client/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/server/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
