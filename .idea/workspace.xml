@@ -15,73 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-              <folding>
-                <element signature="e#9#14#0" expanded="false" />
-                <element signature="e#27#266#0" expanded="false" />
-                <element signature="e#48#59#0" expanded="false" />
-                <element signature="e#80#82#0" expanded="false" />
-                <element signature="e#94#118#0" expanded="false" />
-                <element signature="e#123#216#0" expanded="false" />
-                <element signature="e#163#169#0" expanded="false" />
-                <element signature="e#192#196#0" expanded="false" />
-                <element signature="e#209#216#0" expanded="false" />
-                <element signature="e#221#245#0" expanded="false" />
-                <element signature="e#236#245#0" expanded="false" />
-                <element signature="e#260#266#0" expanded="false" />
-                <element signature="e#297#303#0" expanded="false" />
-                <element signature="e#318#324#0" expanded="false" />
-                <element signature="e#342#357#0" expanded="false" />
-                <element signature="e#370#398#0" expanded="false" />
-                <element signature="e#524#529#0" expanded="false" />
-                <element signature="e#538#547#0" expanded="false" />
-                <element signature="e#552#583#0" expanded="false" />
-                <element signature="e#567#569#0" expanded="false" />
-                <element signature="e#578#583#0" expanded="false" />
-                <element signature="e#586#904#0" expanded="false" />
-                <element signature="e#614#620#0" expanded="false" />
-                <element signature="e#635#641#0" expanded="false" />
-                <element signature="e#687#715#0" expanded="false" />
-                <element signature="e#784#822#0" expanded="false" />
-                <element signature="e#799#804#0" expanded="false" />
-                <element signature="e#813#822#0" expanded="false" />
-                <element signature="e#827#853#0" expanded="false" />
-                <element signature="e#847#853#0" expanded="false" />
-                <element signature="e#858#904#0" expanded="false" />
-                <element signature="e#873#875#0" expanded="false" />
-                <element signature="e#884#889#0" expanded="false" />
-                <element signature="e#898#904#0" expanded="false" />
-                <element signature="e#907#1088#0" expanded="false" />
-                <element signature="e#930#944#0" expanded="false" />
-                <element signature="e#965#970#0" expanded="false" />
-                <element signature="e#982#994#0" expanded="false" />
-                <element signature="e#1008#1059#0" expanded="false" />
-                <element signature="e#1064#1088#0" expanded="false" />
-                <element signature="e#1079#1088#0" expanded="false" />
-                <element signature="e#1091#1225#0" expanded="false" />
-                <element signature="e#1118#1136#0" expanded="false" />
-                <element signature="e#1157#1166#0" expanded="false" />
-                <element signature="e#1178#1194#0" expanded="false" />
-                <element signature="e#1199#1225#0" expanded="false" />
-                <element signature="e#1214#1225#0" expanded="false" />
-                <element signature="e#1254#1267#0" expanded="false" />
-                <element signature="e#1288#1301#0" expanded="false" />
-                <element signature="e#1316#1329#0" expanded="false" />
-                <element signature="e#1334#1376#0" expanded="false" />
-                <element signature="e#1349#1358#0" expanded="false" />
-                <element signature="e#1367#1376#0" expanded="false" />
-                <element signature="e#1398#1404#0" expanded="false" />
-                <element signature="e#1409#1433#0" expanded="false" />
-                <element signature="e#1424#1433#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker/client/tools/index.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -92,21 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker/server/tools/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="68" lean-forward="true" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docker/server/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/docker/client/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="21" />
+            <state relative-caret-position="114">
+              <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -140,10 +63,10 @@
         <option value="$PROJECT_DIR$/docker/client/tools/Client.php" />
         <option value="$PROJECT_DIR$/laravel-s/src/LaravelS.php" />
         <option value="$PROJECT_DIR$/docker/client/READNE.md" />
-        <option value="$PROJECT_DIR$/docker/client/Dockerfile" />
         <option value="$PROJECT_DIR$/docker/client/tools/index.php" />
-        <option value="$PROJECT_DIR$/docker/server/Dockerfile" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/docker/server/Dockerfile" />
+        <option value="$PROJECT_DIR$/docker/client/Dockerfile" />
       </list>
     </option>
   </component>
@@ -344,16 +267,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533703177237</updated>
-      <workItem from="1533703181027" duration="14820000" />
+      <workItem from="1533703181027" duration="14880000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14820000" />
+    <option name="totallyTimeSpent" value="14880000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -367,7 +289,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -579,30 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker/client/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker/client/tools/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="61" lean-forward="false" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker/server/tools/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="68" lean-forward="true" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -670,8 +568,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docker/server/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="21" />
+        <state relative-caret-position="361">
+          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/server/tools/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="68" lean-forward="true" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/client/tools/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="61" lean-forward="false" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/client/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
           <folding />
         </state>
       </provider>
