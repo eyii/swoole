@@ -2,7 +2,7 @@
 $client = new swoole_client(SWOOLE_SOCK_TCP);
 
 //连接到服务器
-!$client->connect("server", 91, 0.5) and  die("connect failed.");
+!$client->connect("server", 90, 0.5) and  die("connect failed.");
 
 //向服务器发送数据
 if (!$client->send("hello world")) die("send failed.");
