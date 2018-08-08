@@ -1,5 +1,5 @@
 <?php
-$server = new swoole_server("127.0.0.1", 9502);
+$server = new swoole_server("0.0.0.0", 90);
 $server->set(array('task_worker_num' => 4));
 $server->on('receive', function($server, $fd, $reactor_id, $data) {
     $task_id = $server->task("Async");

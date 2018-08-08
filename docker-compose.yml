@@ -23,7 +23,7 @@ services:
       - "${PWD}/docker/server/tools/:/var/www/html"
     ports:
       - 81:80
-      - 9503:9503
+      - 90:90
     links:
       - db
   client:
@@ -36,7 +36,7 @@ services:
       - "${PWD}/docker/client/tools:/var/www/html"
     ports:
       - 80:80
-      - 9501:9501
+      - 91:91
     depends_on:
       - server
     links:

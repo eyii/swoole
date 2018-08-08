@@ -15,5 +15,5 @@ RUN docker-php-ext-install zip  pcntl sockets  sysvmsg sysvsem sysvshm shmop soa
 RUN pecl install swoole &&docker-php-ext-enable swoole
 RUN php --ri swoole
 
-EXPOSE 80 9501
+EXPOSE 80 91
 

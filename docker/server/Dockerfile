@@ -18,6 +18,6 @@ RUN docker-php-ext-install zip  pcntl sockets  sysvmsg sysvsem sysvshm shmop soa
 #RUN docker-server-ext-install  mysql pcre_regex mhash  libmysqlclient-dev  imap_ssl libjpeg8-dev libpng12-dev  fpm
 RUN pecl install swoole &&docker-php-ext-enable swoole
 RUN php --ri swoole
-EXPOSE 80 9503
+EXPOSE 80 90
 
 

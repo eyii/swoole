@@ -1,6 +1,6 @@
 <?php
 $redis = new Swoole\Redis;
-$redis->connect('127.0.0.1', 6379, function ($redis, $result) {
+$redis->connect("redis", 6379, function ($redis, $result) {
     $redis->set('test_key', 'value', function ($redis, $result) {
         $redis->get('test_key', function ($redis, $result) {
             var_dump($result);
@@ -8,11 +8,11 @@ $redis->connect('127.0.0.1', 6379, function ($redis, $result) {
     });
 });
 
-$cli = new Swoole\Http\Client('127.0.0.1', 80);
-$cli->setHeaders(array('User-Agent' => 'swoole-http-client'));
-$cli->setCookies(array('test' => 'value'));
+$cli = new Swoole\Http\Client("server", 80);
+$cli->setHeaders(['User-Agent' => 'swoole-http-client']);
+$cli->setCookies(['test' => 'value']);
 
-$cli->post('/dump.server', array("test" => 'abc'), function ($cli) {
+$cli->post('/dump.server', ["test" => 'abc'], function ($cli) {
     var_dump($cli->body);
     $cli->get('/index.server', function ($cli) {
         var_dump($cli->cookies);
