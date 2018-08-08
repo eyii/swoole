@@ -1,10 +1,6 @@
 <?php
-$http = new swoole_http_server("0.0.0.0", 90);
-
-$http->on('request', function ($request, $response) {
-    var_dump($request->get, $request->post);
-    $response->header("Content-Type", "text/html; charset=utf-8");
-    $response->end("<h1>Hello Swoole. #".rand(1000, 9999)."</h1>");
-});
-
-$http->start();
+$server = new swoole_server("0.0.0.0", 90);
+$server->on('connect', function ($serv, $fd) {echo "Client: Connect.\n";});
+$server->on('receive', function ($serv, $fd, $from_id, $data) {$serv->send($fd, "Server: ".$data);});
+$server->on('close', function ($serv, $fd) {echo "Client: Close.\n";});
+$server->start();
