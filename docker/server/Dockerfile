@@ -20,5 +20,5 @@ RUN pecl install swoole &&docker-php-ext-enable swoole
 RUN php --ri swoole
 VOLUME tools/ ${WEB}/
 EXPOSE 80 9503
-CMD php ${WEB}/index.php
+
 

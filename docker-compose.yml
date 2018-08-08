@@ -18,6 +18,7 @@ services:
     build:
       ./docker/server
     image:  dockerliweipei/swoole:server
+    command: php /var/www/html/index.php
     volumes:
       - "${PWD}/docker/server/tools/:/var/www/html"
     ports:
