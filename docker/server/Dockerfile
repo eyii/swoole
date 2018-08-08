@@ -16,6 +16,7 @@ RUN docker-php-ext-install zip  pcntl sockets  sysvmsg sysvsem sysvshm shmop soa
 #RUN docker-server-ext-disable rpath debug fileinfo
 #RUN docker-server-ext-install  mysql pcre_regex mhash  libmysqlclient-dev  imap_ssl libjpeg8-dev libpng12-dev  fpm
 RUN pecl install swoole &&docker-php-ext-enable swoole
+RUN pecl install pcre-devel
 
 RUN php --ri swoole
 ADD ./tools/tcp_server.php ${WEB}/
