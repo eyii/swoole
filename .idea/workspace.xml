@@ -15,118 +15,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel-s/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="49" column="62" lean-forward="false" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SwooleMySQLConnection.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel-s/src/Illuminate/Database/SwooleMySQLConnection.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#165#934#0#PHP" expanded="false" />
-                <element signature="e#223#306#0#PHP" expanded="false" />
-                <element signature="e#332#419#0#PHP" expanded="false" />
-                <element signature="e#449#533#0#PHP" expanded="false" />
-                <element signature="e#539#932#0#PHP" expanded="false" />
-                <element signature="e#663#907#0#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SwoolePDO.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel-s/src/Illuminate/Database/SwoolePDO.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-              <folding>
-                <element signature="e#234#314#0#PHP" expanded="false" />
-                <element signature="e#320#398#0#PHP" expanded="false" />
-                <element signature="e#502#838#0#PHP" expanded="false" />
-                <element signature="e#559#705#0#PHP" expanded="false" />
-                <element signature="e#851#1185#0#PHP" expanded="false" />
-                <element signature="e#973#1126#0#PHP" expanded="false" />
-                <element signature="e#1310#1415#0#PHP" expanded="false" />
-                <element signature="e#1421#1530#0#PHP" expanded="false" />
-                <element signature="e#1536#1915#0#PHP" expanded="false" />
-                <element signature="e#1745#1885#0#PHP" expanded="false" />
-                <element signature="e#2012#2103#0#PHP" expanded="false" />
-                <element signature="e#2109#2188#0#PHP" expanded="false" />
-                <element signature="e#2194#2310#0#PHP" expanded="false" />
-                <element signature="e#2394#2551#0#PHP" expanded="false" />
-                <element signature="e#2443#2544#0#PHP" expanded="false" />
-                <element signature="e#2557#2639#0#PHP" expanded="false" />
-                <element signature="e#2645#2797#0#PHP" expanded="false" />
-                <element signature="e#2803#2901#0#PHP" expanded="false" />
-                <element signature="e#2907#2989#0#PHP" expanded="false" />
-                <element signature="e#2995#3063#0#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docker/server/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+            <state relative-caret-position="285">
+              <caret line="15" column="114" lean-forward="false" selection-start-line="15" selection-start-column="114" selection-end-line="15" selection-end-column="114" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LaravelScheduleJob.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel-s/src/Illuminate/LaravelScheduleJob.php">
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel-s/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="27" column="45" lean-forward="false" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
-              <folding>
-                <element signature="e#161#271#0#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Request.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel-s/src/Swoole/Request.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="100" column="0" lean-forward="true" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-              <folding>
-                <element signature="e#420#3848#0#PHP" expanded="false" />
-                <element signature="e#1125#1479#0#PHP" expanded="false" />
-                <element signature="e#1546#1889#0#PHP" expanded="false" />
-                <element signature="e#1640#1879#0#PHP" expanded="false" />
-                <element signature="e#1757#1879#0#PHP" expanded="false" />
-                <element signature="e#2011#2141#0#PHP" expanded="false" />
-                <element signature="e#2178#2378#0#PHP" expanded="false" />
-                <element signature="e#2625#2748#0#PHP" expanded="false" />
-                <element signature="e#2808#2940#0#PHP" expanded="false" />
-                <element signature="e#3478#3816#0#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LaravelSServiceProvider.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel-s/src/Illuminate/LaravelSServiceProvider.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="-437">
+              <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mysqlnd</find>
+    </findStrings>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -198,6 +112,37 @@
               <item name="swoole" type="462c0819:PsiDirectoryNode" />
               <item name="docker" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swoole" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swoole" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel-s" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swoole" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swoole" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel-s" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swoole" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swoole" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel-s" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Swoole" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swoole" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swoole" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel-s" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swoole" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swoole" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel-s" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="composer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -319,12 +264,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533703177237</updated>
-      <workItem from="1533703181027" duration="2641000" />
+      <workItem from="1533703181027" duration="3263000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2641000" />
+    <option name="totallyTimeSpent" value="3263000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -339,7 +284,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -407,14 +352,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel-s/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="49" column="62" lean-forward="false" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel-s/src/Illuminate/Database/SwooleMySQLConnection.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -459,10 +396,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-s/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-437">
+          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docker/server/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        <state relative-caret-position="285">
+          <caret line="15" column="114" lean-forward="false" selection-start-line="15" selection-start-column="114" selection-end-line="15" selection-end-column="114" />
           <folding />
         </state>
       </provider>
