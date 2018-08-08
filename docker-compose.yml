@@ -19,7 +19,7 @@ services:
       ./docker/server
     image:  dockerliweipei/swoole:server
     ports:
-      - 8080:80
+      - 81:80
       - 9503:9503
     links:
       - db

@@ -17,9 +17,7 @@ RUN docker-php-ext-install zip  pcntl sockets  sysvmsg sysvsem sysvshm shmop soa
 RUN pecl install swoole &&docker-php-ext-enable swoole
 RUN php --ri swoole
 
-
-
-ADD ./tools/tcp_client.php ${WEB}/
+VOLUME tools/ ${WEB}/
 WORKDIR ${WEB}
 EXPOSE 80 9501
-CMD php ${WEB}/tcp_client.php
+

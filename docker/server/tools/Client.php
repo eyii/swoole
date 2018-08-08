@@ -1,20 +1,7 @@
 <?php
-class Client
-{
-    private $client;
-    function __construct() {
-        $this->client = new swoole_client(SWOOLE_SOCK_TCP);
-    }
-    function connect() {
-        if( !$this->client->connect("127.0.0.1", 9501 , 1) ) 	echo "Error: {$this->client->errMsg}[{$this->client->errCode}]\n";
-
-        fwrite(STDOUT, "请输入消息 Please input msg：");
-        $msg = trim(fgets(STDIN));
-        $this->client->send( $msg );
-        $message = $this->client->recv();
-        echo "Get Message From Server:{$message}\n";
-    }
-}
-
-$client = new Client();
-$client->connect();
+$client = new swoole_client(SWOOLE_SOCK_TCP, SWOOLE_SOCK_ASYNC);
+$client->on("connect", function($cli) {$cli->send("hello world\n");});
+$client->on("receive", function($cli, $data){echo "received: {$data}\n";});
+$client->on("error", function($cli){echo "connect failed\n";});
+$client->on("close", function($cli){echo "connection close\n";});
+$client->connect("127.0.0.1", 9501, 0.5);
