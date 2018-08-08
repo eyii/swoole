@@ -1,8 +1,7 @@
 <?php
 $client = new swoole_client(SWOOLE_SOCK_TCP);
-!$client->connect("server", 90, 0.5) and  die("connect failed.");
-!$client->send("hello world") and die("send failed.");
-$data = $client->recv();
-!$data and  die("recv failed.");
-echo $data;
+if (!$client->connect('server', 90, -1)) exit("connect failed. Error: {$client->errCode}\n");
+
+$client->send("hello world\n");
+echo $client->recv();
 $client->close();
