@@ -1,14 +1,5 @@
 FROM dockerliweipei/xdebug:nginx7.1
 
-#加文件
-ENV GIT_ROOT  /var/www/html
-ENV WEB /var/www/html
-#权限
-
-#vhost
-RUN ln -s /etc/apache2/mods-available/rewrite.load /etc/apache2/mods-enabled/rewrite.load
-WORKDIR /etc/apache2/sites-enabled/
-RUN sed -i "s#DocumentRoot /var/www/html/public#DocumentRoot ${WEB}#" 000-default.conf
 #RUN cp server.ini-development /etc/server/server.ini
 
 #组件
