@@ -14,7 +14,65 @@
     <executablePath>composer</executablePath>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docker/apache/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="43" column="4" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+              <folding>
+                <element signature="e#9#14#0" expanded="false" />
+                <element signature="e#27#259#0" expanded="false" />
+                <element signature="e#48#52#0" expanded="false" />
+                <element signature="e#73#75#0" expanded="false" />
+                <element signature="e#87#111#0" expanded="false" />
+                <element signature="e#116#209#0" expanded="false" />
+                <element signature="e#156#162#0" expanded="false" />
+                <element signature="e#185#189#0" expanded="false" />
+                <element signature="e#202#209#0" expanded="false" />
+                <element signature="e#214#238#0" expanded="false" />
+                <element signature="e#229#238#0" expanded="false" />
+                <element signature="e#253#259#0" expanded="false" />
+                <element signature="e#290#296#0" expanded="false" />
+                <element signature="e#311#317#0" expanded="false" />
+                <element signature="e#600#606#0" expanded="false" />
+                <element signature="e#621#627#0" expanded="false" />
+                <element signature="e#645#653#0" expanded="false" />
+                <element signature="e#666#694#0" expanded="false" />
+                <element signature="e#808#814#0" expanded="false" />
+                <element signature="e#834#836#0" expanded="false" />
+                <element signature="e#845#851#0" expanded="false" />
+                <element signature="e#860#865#0" expanded="false" />
+                <element signature="e#874#883#0" expanded="false" />
+                <element signature="e#886#1060#0" expanded="false" />
+                <element signature="e#909#916#0" expanded="false" />
+                <element signature="e#937#942#0" expanded="false" />
+                <element signature="e#954#966#0" expanded="false" />
+                <element signature="e#980#1031#0" expanded="false" />
+                <element signature="e#1036#1060#0" expanded="false" />
+                <element signature="e#1051#1060#0" expanded="false" />
+                <element signature="e#1063#1190#0" expanded="false" />
+                <element signature="e#1090#1101#0" expanded="false" />
+                <element signature="e#1122#1131#0" expanded="false" />
+                <element signature="e#1143#1159#0" expanded="false" />
+                <element signature="e#1164#1190#0" expanded="false" />
+                <element signature="e#1179#1190#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker/apache/server/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -121,7 +179,34 @@
             <path>
               <item name="swoole" type="b2602c69:ProjectViewProjectNode" />
               <item name="swoole" type="462c0819:PsiDirectoryNode" />
-              <item name="laravel-s" type="462c0819:PsiDirectoryNode" />
+              <item name="docker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swoole" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swoole" type="462c0819:PsiDirectoryNode" />
+              <item name="docker" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swoole" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swoole" type="462c0819:PsiDirectoryNode" />
+              <item name="docker" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swoole" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swoole" type="462c0819:PsiDirectoryNode" />
+              <item name="docker" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swoole" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swoole" type="462c0819:PsiDirectoryNode" />
+              <item name="docker" type="462c0819:PsiDirectoryNode" />
+              <item name="nginx" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -270,12 +355,12 @@
       <workItem from="1533804734178" duration="2397000" />
       <workItem from="1533807597287" duration="7000" />
       <workItem from="1533808478801" duration="144000" />
-      <workItem from="1533808672293" duration="142000" />
+      <workItem from="1533808672293" duration="233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26579000" />
+    <option name="totallyTimeSpent" value="26670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -490,13 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker/apache/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker/nginx/server/tools/web/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -522,14 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker/apache/server/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -597,6 +667,59 @@
             <element signature="e#1362#1378#0" expanded="false" />
             <element signature="e#1383#1409#0" expanded="false" />
             <element signature="e#1398#1409#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/apache/server/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/apache/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="43" column="4" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+          <folding>
+            <element signature="e#9#14#0" expanded="false" />
+            <element signature="e#27#259#0" expanded="false" />
+            <element signature="e#48#52#0" expanded="false" />
+            <element signature="e#73#75#0" expanded="false" />
+            <element signature="e#87#111#0" expanded="false" />
+            <element signature="e#116#209#0" expanded="false" />
+            <element signature="e#156#162#0" expanded="false" />
+            <element signature="e#185#189#0" expanded="false" />
+            <element signature="e#202#209#0" expanded="false" />
+            <element signature="e#214#238#0" expanded="false" />
+            <element signature="e#229#238#0" expanded="false" />
+            <element signature="e#253#259#0" expanded="false" />
+            <element signature="e#290#296#0" expanded="false" />
+            <element signature="e#311#317#0" expanded="false" />
+            <element signature="e#600#606#0" expanded="false" />
+            <element signature="e#621#627#0" expanded="false" />
+            <element signature="e#645#653#0" expanded="false" />
+            <element signature="e#666#694#0" expanded="false" />
+            <element signature="e#808#814#0" expanded="false" />
+            <element signature="e#834#836#0" expanded="false" />
+            <element signature="e#845#851#0" expanded="false" />
+            <element signature="e#860#865#0" expanded="false" />
+            <element signature="e#874#883#0" expanded="false" />
+            <element signature="e#886#1060#0" expanded="false" />
+            <element signature="e#909#916#0" expanded="false" />
+            <element signature="e#937#942#0" expanded="false" />
+            <element signature="e#954#966#0" expanded="false" />
+            <element signature="e#980#1031#0" expanded="false" />
+            <element signature="e#1036#1060#0" expanded="false" />
+            <element signature="e#1051#1060#0" expanded="false" />
+            <element signature="e#1063#1190#0" expanded="false" />
+            <element signature="e#1090#1101#0" expanded="false" />
+            <element signature="e#1122#1131#0" expanded="false" />
+            <element signature="e#1143#1159#0" expanded="false" />
+            <element signature="e#1164#1190#0" expanded="false" />
+            <element signature="e#1179#1190#0" expanded="false" />
           </folding>
         </state>
       </provider>
